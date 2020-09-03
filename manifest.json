@@ -1,0 +1,7 @@
+{
+  "name": "Component List Generator",
+  "id": "878196452411505693",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui":"index.html"
+}

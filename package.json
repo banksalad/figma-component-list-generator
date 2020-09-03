@@ -1,0 +1,15 @@
+{
+  "name": "Component List Generator",
+  "version": "1.0.0",
+  "description": "페이지 안에 있는 모든 컴퍼넌트의 리스트를 출력합니다",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "Rainist",
+  "license": "The MIT License (MIT)",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.16.1"
+  },
+  "dependencies": {}
+}
