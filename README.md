@@ -32,8 +32,8 @@ sudo npm install -g typescript
 위 도구들이 깔려져 있다면, 본 프로젝트를 다운받아 빌드한 후 실행해 봅시다.
 
 ```shell
-git clone https://github.com/Rainist/Component_List_Generator.git
-cd Component_List_Generator
+git clone https://github.com/Rainist/component-list-generator.git
+cd component-list-generator
 npm install --save-dev @figma/plugin-typings
 ```
 
