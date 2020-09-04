@@ -3,22 +3,22 @@
 </head>
 
 <body>
-    <script>
-        function download(filename, text) {
-            var element = document.createElement("a");
-            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-            element.setAttribute('download', filename);
-            element.style.display = 'none';
-            document.body.appendChild(element);
-            element.click();
-            document.body.removeChild(element);
-        }
-        onmessage = (event) => {
-            let data = event.data.pluginMessage
-            download("component-list.txt", data)
-            parent.postMessage({ pluginMessage:'Done'}, '*')
-        }
-    </script>
-</body>
+  <script>
+    function download(filename, text) {
+      const element = document.createElement("a");
+      element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+      element.setAttribute('download', filename);
+      element.style.display = 'none';
+      document.body.appendChild(element);
+      element.click();
+      document.body.removeChild(element);
+    }
 
+    function onmessage = (event) => {
+      const data = event.data.pluginMessage
+      download("component-list.txt", data)
+      parent.postMessage({ pluginMessage:'Done'}, '*')
+    }
+  </script>
+</body>
 </html>

@@ -1,15 +1,20 @@
 {
-  "name": "Component List Generator",
+  "name": "component-list-generator",
   "version": "1.0.0",
   "description": "페이지 안에 있는 모든 컴퍼넌트의 리스트를 출력합니다",
   "main": "code.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint . --ext ts --ext tsx"
   },
   "author": "Rainist",
   "license": "The MIT License (MIT)",
   "devDependencies": {
-    "@figma/plugin-typings": "^1.16.1"
-  },
-  "dependencies": {}
+    "@figma/plugin-typings": "^1.16.1",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.8.1",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "typescript": "^4.0.2"
+  }
 }

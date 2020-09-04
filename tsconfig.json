@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "es6",
     "esModuleInterop": true,
+    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "strict": true,
     "typeRoots": [
       "./node_modules/@types",
       "./node_modules/@figma"
