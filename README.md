@@ -1,5 +1,7 @@
 # Component List Generator
 
+[![License: MIT](https://badgen.net/badge/license/MIT/blue)](https://opensource.org/licenses/MIT)
+
 각 컴퍼넌트의 플랫폼별 개발 진행상황등을 지라나 엑셀등으로 관리할 수 있도록,
 모든 컴퍼넌트의 리스트를 텍스트 파일 형태로 출력합니다.
 
