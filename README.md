@@ -1,4 +1,4 @@
-# Component List Generator
+# figma-component-list-generator
 
 [![License: MIT](https://badgen.net/badge/license/MIT/blue)](https://opensource.org/licenses/MIT)
 
