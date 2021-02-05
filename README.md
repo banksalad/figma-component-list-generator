@@ -9,7 +9,7 @@
 
 ## 사용 방법
 
-![사용 방법 영상](./resources/how_to_use.gif)
+![사용 방법 영상](./art/how_to_use.gif)
 
 ## 개발환경 설정하기
 
@@ -30,14 +30,14 @@ brew install node@12
 위 도구들이 깔려져 있다면, 본 프로젝트를 다운받아 빌드한 후 실행해 봅시다.
 
 ```shell
-git clone https://github.com/Rainist/component-list-generator.git
-cd component-list-generator
+git clone https://github.com/banksalad/figma-component-list-generator.git
+cd figma-component-list-generator
 npm install
 ```
 
 ## 스타일 가이드
 
-이 프로젝트는 [Rainist Web팀의 StyleGuide](https://github.com/Rainist/styleguide/tree/master/web)규칙을 따르고 있습니다.
+이 프로젝트는 [Banksalad Web팀의 StyleGuide](https://github.com/banksalad/styleguide/tree/master/web)규칙을 따르고 있습니다.
 
 ### Visual Studio Code 설정 (옵션)
 
@@ -52,6 +52,6 @@ Visual Studio Code를 쓰지 않는 분이라면, code.ts를 변경 한 뒤 `tsc
 
 Figma Desktop App에서 개발중인 플러그인을 사용해 볼 수 있습니다.
 
-![플러그인 실행 방법](./resources/how_to_run.gif)
+![플러그인 실행 방법](./art/how_to_run.gif)
 
 이제 code.ts에 다양한 변화를 주고, ⌥⌘P(최근 실행한 플러그인 재실행 단축키) 를 눌러 변경 사항을 확인해 보세요!
