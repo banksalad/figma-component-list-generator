@@ -7,7 +7,7 @@ const componentNodeList: ComponentNode[] = [];
 figma.currentPage
   .findAll()
   .forEach(node => {
-    switch(node.type) {
+    switch (node.type) {
       case 'COMPONENT_SET': {
         componentSetNodeList.push(node);
         break;
@@ -66,14 +66,11 @@ const trackedComponentNameList = trackedComponentList
   .map(node => node.name.trim())
   .sort((a, b) => a.localeCompare(b))
   .reduce((previousValue, currentValue) => previousValue + `${currentValue}\n`, '');
-
 console.log(trackedComponentNameList);
 
-// figma.showUI(__html__);
-// figma.ui.postMessage(trackedComponentNameList);
-// figma.ui.onmessage = () => {
-//   figma.closePlugin();
-// };
-
-console.log(`Close Plulgin`);
-figma.closePlugin();
+figma.showUI(__html__);
+figma.ui.postMessage(trackedComponentNameList);
+figma.ui.onmessage = (event) => {
+  console.log(event.pluginMessage);
+  figma.closePlugin();
+};
