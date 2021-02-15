@@ -10,7 +10,7 @@
   "author": "Banksalad",
   "license": "The MIT License (MIT)",
   "devDependencies": {
-    "@figma/plugin-typings": "^1.16.1",
+    "@figma/plugin-typings": "^1.19.0",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "eslint": "^7.8.1",
